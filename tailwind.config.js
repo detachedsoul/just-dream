@@ -40,6 +40,7 @@ module.exports = {
         'hero-4': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/slide-4.jpeg)",
         'about': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/about.jpg)",
         'contact': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/contact.jpeg)",
+        'investment': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/investment.jpeg)",
       },
       transitionProperty: {
         'padding': "padding",

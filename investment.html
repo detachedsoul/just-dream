@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just-Dream Global | Contact Us</title>
+    <title>Just-Dream Global | Investment</title>
     <link rel="icon" href="assets/img/icon.png">
 
     <!-- Preload styles -->
     <link rel="preload" href="assets/css/main.css" as="style">
     <link rel="preload" href="assets/css/font.min.css" as="style">
+    <link rel="preload" href="assets/icons/uicons-regular-rounded.min.css" as="style">
     <link rel="preload" href="assets/icons/all.min.css" as="style">
+    <link rel="preload" href="assets/owlcarousel/owl.carousel.min.css" as="style">
     <link rel="preload" href="assets/js/main.min.js" as="script">
     <link rel="preload" href="assets/js/init.min.js" as="script">
+    <link rel="preload" href="assets/owlcarousel/jquery.min.js" as="script">
+    <link rel="preload" href="assets/owlcarousel/owl.carousel.min.js" as="script">
 
     <!-- Essential stylesheets -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -54,7 +58,7 @@
                 </li>
                 
                 <li>
-                    <a class="block px-3.5 py-2 rounded-md hover:bg-primary-purple hover:text-white" href="investment.html">
+                    <a class="block px-3.5 py-2 rounded-md bg-primary-purple text-white" href="investment.html">
                         Investments
                     </a>
                 </li>
@@ -78,7 +82,7 @@
                 </li>
                 
                 <li>
-                    <a class="block px-3.5 py-2 rounded-md bg-primary-purple text-white" href="contact.html">
+                    <a class="block px-3.5 py-2 rounded-md hover:bg-primary-purple hover:text-white" href="contact.html">
                         Contact
                     </a>
                 </li>
@@ -102,12 +106,12 @@
     </header>
 
     <!-- Hero Section -->
-    <div class="grid place-content-center min-h-[80vh] max-h-[80vh] bg-center bg-cover bg-fixed bg-contact text-center text-white aspect-auto">
+    <div class="grid place-content-center min-h-[80vh] max-h-[80vh] bg-center bg-cover bg-fixed bg-investment text-center text-white aspect-auto">
 
         <div class="text-center">
             
             <h1 class="text-4xl font-bold text-white lg:text-5xl mb-4">
-                Contact Us
+                Investments
             </h1>
             
             <p class="inline-flex gap-4 items-center">
@@ -116,7 +120,7 @@
                 </a>
                 /
                 <span>
-                    Contact Us
+                    Investments
                 </span>
             </p>
             
@@ -125,107 +129,64 @@
     </div>
 
 
-    <!-- Contact Form Section -->
-    <div class="grid gap-12 px-6 py-12 border-b lg:grid-cols-12 lg:px-8 lg:items-center bg-white">
+    <!-- Why Choose Us Section -->
+    <div class="px-6 py-12 lg:px-8">
 
-         <div class="lg:col-span-5 lg:order-2">
+        <div class="px-4 text-center" data-aos="zoom-in">
 
-            <div class="mb-2">
+            <span class="font-rubik text-primary-purple">
+                Just-Dream Global Investments
+            </span>
+            <div class="w-12 h-1 mx-auto bg-primary-purple rounded-full mt-0.5"></div>
 
-                <span class="font-rubik text-primary-purple">
-                    Let's talk about everything, seriously.
-                </span>
-                <div class="w-12 h-1 bg-primary-purple rounded-full mt-0.5"></div>
-
-                <h2 class="mt-2 text-3xl">
-                    Whatever question you have, please feel free to ask.
-                </h2>
-
-            </div>
-
-            <p>
-                Don't like filling forms? Most of us dont! Get in touch with us on social media and we'll love to hear from you.
-            </p>
-
-            <div class="flex gap-4">
-
-                <a class="text-2xl transition-all ease-out hover:text-purple hover:scale-90 text-blue-600" href="https://web.facebook.com/JustDreamGlobal/" target="_blank" rel="noopener noreferrer" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-
-                <a class="text-2xl transition-all ease-out hover:text-purple hover:scale-90 text-rose-600" href="https://www.instagram.com/justdreamglobal/" target="_blank" rel="noopener noreferrer" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-
-                <a class="text-2xl transition-all ease-out hover:text-purple hover:scale-90 text-sky-500" href="https://twitter.com/JustdreamG" target="_blank" rel="noopener noreferrer" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-
-                <a class="text-2xl transition-all ease-out hover:text-purple hover:scale-90 text-sky-600" href="https://www.linkedin.com/company/71096774/admin/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-            </div>
-
-         </div>
-
-         <div class="grid gap-4 lg:order-1 lg:col-span-7 lg:border-r border-slate-900 border-dotted lg:pr-12">
-
-            <h3 class="text-3xl">
-                Fill the form. It's easy.
+            <h3 class="mt-2 text-3xl font-bold lg:w-1/2 lg:mx-auto">
+                Why Invest with Us
             </h3>
 
-            <form class="grid gap-4" method="post">
+        </div>
 
-                <div class="grid gap-4 lg:grid-cols-12">
+        <div class="grid items-baseline gap-4 px-4 pt-8 mt-4 rounded-md lg:p-8 md:grid-cols-12 owl-carousel addStaging">
 
-                    <label class="lg:col-span-6 block" for="name">
-                        <span class="block mb-2">
-                            Name
-                            <span class="text-red-500 relative top-0.5">*</span>
-                        </span>
-                        <input class="placeholder:text-black rounded-md bg-slate-50 hover:bg-white border-slate-400 py-1.5 px-4 outline-offset-4 outline-primary-purple hover:ring-2 hover:ring-offset-[3px] hover:ring-primary-purple/40 border w-full focus:ring-1 focus:ring-offset-[3px] focus:ring-primary-purple/50 focus:outline-none focus:bg-white" type="text" name="name" id="name" placeholder="Name">
-                    </label>
-    
-                    <label class="lg:col-span-6 block" for="email">
-                        <span class="block mb-2">
-                            Email address
-                            <span class="text-red-500 relative top-0.5">*</span>
-                        </span>
-                        <input class="placeholder:text-black rounded-md bg-slate-50 hover:bg-white border-slate-400 py-1.5 px-4 outline-offset-4 outline-primary-purple hover:ring-2 hover:ring-offset-[3px] hover:ring-primary-purple/40 border w-full focus:ring-1 focus:ring-offset-[3px] focus:ring-primary-purple/50 focus:outline-none focus:bg-white" type="email" name="email" id="email" placeholder="Email address">
-                    </label>
-    
-                    <label class="lg:col-span-12 block" for="subject">
-                        <span class="block mb-2">
-                            Subject 
-                            <span class="text-red-500 relative top-0.5">*</span>
-                        </span>
-                        <input class="placeholder:text-black rounded-md bg-slate-50 hover:bg-white border-slate-400 py-1.5 px-4 outline-offset-4 outline-primary-purple hover:ring-2 hover:ring-offset-[3px] hover:ring-primary-purple/40 border w-full focus:ring-1 focus:ring-offset-[3px] focus:ring-primary-purple/50 focus:outline-none focus:bg-white" type="text" name="subject" id="subject" placeholder="Subject">
-                    </label>
-    
-                    <label class="lg:col-span-12 block" for="message">
-                        <span class="block mb-2">
-                            Compose Message 
-                            <span class="text-red-500 relative top-0.5">*</span>
-                        </span>
-                        <textarea class="placeholder:text-black rounded-md bg-slate-50 hover:bg-white border-slate-400 py-1.5 px-4 outline-offset-4 outline-primary-purple hover:ring-2 hover:ring-offset-[3px] hover:ring-primary-purple/40 border w-full focus:ring-1 focus:ring-offset-[3px] focus:ring-primary-purple/50 focus:outline-none focus:bg-white" name="message" id="message" cols="30" rows="5" placeholder="Compose message"></textarea>
-                    </label>
+            <div class="text-center md:col-span-6 lg:col-span-4 bg-gray-200 px-4 py-8 transition ease-linear rounded-md hover:bg-primary-purple hover:text-white shadow-sm group">
 
-                </div>
+                <p>
+                    Just-Dream Global is always working with the best brands that are strategic in their executions as a company. As we continue to grow in the industry, we make efforts to work with strategic alliances, so we offer the best of services to our customers.
+                </p>
 
-                <input class="w-max cursor-pointer bg-primary-purple hover:bg-purple-900 text-white rounded-md py-2 px-3.5 ml-auto focus:bg-purple-900 focus:ring-1 focus:ring-offset-[3px] focus:ring-purple-900" type="submit" value="Send Message">
+                <a class="mt-3 inline-block shadow-md bg-primary-purple hover:bg-purple-900 text-white rounded-md py-2 px-3.5 ml-auto focus:bg-purple-900 focus:ring-1 focus:ring-offset-[3px] focus:ring-purple-900" href="login.html">
+                    Apply now
+                </a>
 
-            </form>
+            </div>
 
-         </div>
+            <div class="text-center md:col-span-6 lg:col-span-4 bg-gray-200 px-4 py-8 transition ease-linear rounded-md hover:bg-primary-purple hover:text-white shadow-sm group">
+
+                <p>
+                    The world has become a global connected village that we cannot offer all at once. We work with industrial strategic alliances and collaborate with the best in the field to make sure that our customers enjoy the services we offer.
+                </p>
+
+                <a class="mt-3 inline-block shadow-md bg-primary-purple hover:bg-purple-900 text-white rounded-md py-2 px-3.5 ml-auto focus:bg-purple-900 focus:ring-1 focus:ring-offset-[3px] focus:ring-purple-900" href="login.html">
+                    Apply now
+                </a>
+
+            </div>
+
+            <div class="text-center md:col-span-6 lg:col-span-4 bg-gray-200 px-4 py-8 transition ease-linear rounded-md hover:bg-primary-purple hover:text-white shadow-sm group">
+
+                <p>
+                    By working with strategic alliances, we become more flexible and can provide the desired experiences for our customers everywhere.
+                </p>
+
+                <a class="mt-3 inline-block shadow-md bg-primary-purple hover:bg-purple-900 text-white rounded-md py-2 px-3.5 ml-auto focus:bg-purple-900 focus:ring-1 focus:ring-offset-[3px] focus:ring-purple-900" href="login.html">
+                    Apply now
+                </a>
+
+            </div>
+
+        </div>
 
     </div>
 
-
-    <!-- Googlre Map -->
-    <div class="w-full h-[300px]">
-        <iframe class="w-full h-[300px]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15854.907224789864!2d3.2472822!3d6.5561317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84b9196484d32eb4!2sJust-Dream%20Global%20concept%20Limited!5e0!3m2!1sen!2snl!4v1616052948684!5m2!1sen!2snl" loading="lazy"></iframe>
-    </div>
 
 
     <!-- Footer -->
@@ -359,8 +320,10 @@
 
     <link rel="stylesheet" href="assets/icons/uicons-regular-rounded.min.css">
     <link rel="stylesheet" href="assets/icons/all.min.css">
-    <link rel="stylesheet" href="assets/aos/aos.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
     <script src="assets/aos/aos.js"></script>
+    <script src="assets/owlcarousel/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
     <script src="assets/js/main.min.js" defer></script>
     <script src="assets/js/init.min.js"></script>
     <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js" defer crossorigin="anonymous"></script>

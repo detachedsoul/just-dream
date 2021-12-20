@@ -5,16 +5,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "compile": "tailwind -i ./src/main.css -o ./assets/css/main.css -w",
+    "compile": "tailwind -i ./src/main.css -o ./assets/css/main.css -w --minify",
     "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.3.7",
-    "postcss": "^8.3.9",
-    "tailwindcss": "^2.2.17",
-    "vite": "^2.6.7"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7",
+    "vite": "^2.7.3"
   }
 }

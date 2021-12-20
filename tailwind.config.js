@@ -38,7 +38,8 @@ module.exports = {
         'hero-2': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/slide-2.jpg)",
         'hero-3': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/slide-3.jpeg)",
         'hero-4': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/slide-4.jpeg)",
-         'about': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/about.jpg)",
+        'about': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/about.jpg)",
+        'contact': "linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../img/contact.jpeg)",
       },
       transitionProperty: {
         'padding': "padding",
